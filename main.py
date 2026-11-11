@@ -30,7 +30,7 @@ while True:
     elif opcion == "2":
         nombre = input("Ingrese el nombre del medico : ")
 
-        especialidades_validas = ["Medicina General", "Odontologia", "Pediatria", "Ginecologia y Obstetricia", "Topico"]
+        especialidades_validas = ["Medicina General", "Odontologia", "Pediatria", "Ginecologia Y Obstetricia", "Topico"]
 
         print(f"\nEspecialidades válidas: {', '.join(especialidades_validas)}")
         especialidad = input("Ingrese su especialidad : ").title()
@@ -101,7 +101,7 @@ while True:
             "Medicina General",
             "Odontologia",
             "Pediatria",
-            "Ginecologia y Obstetricia",
+            "Ginecologia Y Obstetricia",
             "Topico"
         ]
 
